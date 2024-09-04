@@ -78,14 +78,14 @@ for row in file:
 ```python
 >>> row[0]
 {'age': 30, 'secrets': {'password': 'foo', 'closet': '2 skeletons'}}
->>> row[, 'secrets', 'password']
+>>> row[0, 'secrets', 'password']
 'foo'
 ```
 
 
 ### Philosophy
 
-This is not about making the more performant or the most featureful reader for these formats.
+This is not about making the most performant or the most featureful reader for these formats.
 
 What this is about is making the library that is the easiest to use for reading a bunch of formats.
 You don't need to remember the names of all the specific libraries to import. You don't need to remember
